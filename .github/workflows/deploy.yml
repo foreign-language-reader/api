@@ -34,7 +34,7 @@ jobs:
 
       - name: Get release tag
         id: version
-        uses: WyriHaximus/github-action-get-previous-tag@v1.0.1
+        uses: WyriHaximus/github-action-get-previous-tag@v1.1
       
       # This is different than the release tag. A tag has v, like v1.1.0, but a version does not, like 1.1.0
       - name: Get release version
